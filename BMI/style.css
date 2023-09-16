@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f7fa;
+}
+
+.containerParent {
+    width: 400px;
+    height: 620px;
+    background-color: #F1EFEF ;
+    position: relative;
+    top: 50px ;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.sec-1 {
+    background-color: #CCC8AA;
+    width: 110%;
+    position: relative;
+    left: -5%;
+    height: 360px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 5px;
+    border-radius: 7px;
+    background-color: #191717;
+}
+
+.forIcon {
+    width: 70px;
+    height: 70px;
+    background-color: #F1EFEF;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 73%;
+    top: 70%;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.forIcon.active .bi-arrow-right {
+    display: none;
+}
+
+.forIcon.active .bi-arrow-repeat {
+ display: inline;
+}
+
+.bi-arrow-repeat {
+    display: none;
+    font-size: 35px;
+    color: #191717 ;
+    cursor: pointer; 
+}
+
+.bi-arrow-right {
+    font-size: 35px;
+    color: #191717 ;
+    cursor: pointer;
+}
+
+.svg {
+    width: 110%;
+    position: relative;
+    left: -20px;
+    top: -18px;
+}
+
+
+.sec-2 {
+    margin-top: 80px;
+}
+
+h3 {
+    font-weight: bold;   
+    display: none;
+}
+
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+    color: #a5a393;
+    display: none;
+}
+
+h6 {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    display: none;
+}
+
+.sec-2 p {
+    font-size: 18px;
+    font-weight: bold;
+    text-align:justify;
+}
